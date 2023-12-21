@@ -1,0 +1,28 @@
+.feedbackBtnList {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.feedbackBtn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 96px;
+  min-height: 38px;
+  border: none;
+  color: black;
+  background-color: #f5f5f5;
+  transition: background-color 0.17s ease, color 0.17s ease;
+  text-transform: capitalize;
+}
+
+.feedbackBtn:hover {
+  background-color: #d3d3d3;
+}
