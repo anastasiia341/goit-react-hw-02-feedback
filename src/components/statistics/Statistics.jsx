@@ -8,8 +8,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <p className={css.statisticText}>Bad: {bad}</p>
       <p className={css.statisticText}>Total: {total}</p>
       <p className={css.statisticText}>
-        Positive feedback:{' '}
-        {Number.isNaN(positivePercentage) ? '0' : positivePercentage}%
+        Positive feedback: {positivePercentage}%
       </p>
     </div>
   );
